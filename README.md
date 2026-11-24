@@ -1,20 +1,19 @@
-# Small Office Network (Cisco Packet Tracer)
+# Enterprise Multi-Site Network Design with VLAN Segmentation
 
-A small office network designed and simulated in Cisco Packet Tracer (2025).
+A multi-site enterprise network designed and simulated in Cisco Packet Tracer. Multiple locations are connected over WAN serial links, and each site is segmented into VLANs.
 
-## What it covers
-- VLAN segmentation by department
-- Inter-VLAN routing
-- Static and RIP routing
-- Access control lists (ACLs) enforcing security policies between departments
-- Connectivity testing and troubleshooting in simulation mode
+## Design
+- VLAN 10, VLAN 20 and VLAN 30 at each site, one per department
+- Inter-VLAN routing between departments and across sites
+- WAN connectivity over serial links
+- IP addressing and subnetting
+- Static and dynamic routing
 
-## Skills used
-Network design, VLANs, routing (static and RIP), ACLs, network troubleshooting, Cisco Packet Tracer.
+## Testing
+The network was tested in Packet Tracer Simulation Mode. Communication was verified between devices in different VLANs and between remote sites.
 
-## Files
-The Packet Tracer project file (.pkt) and topology screenshots will be added here.
+## Tools
+Cisco Packet Tracer
 
 ## Author
-Mohamed Hany Abdullah. Cybersecurity student focused on penetration testing and vulnerability assessment.
-LinkedIn: https://www.linkedin.com/in/mohamed-hany-872836398/
+Mohamed Hany, cybersecurity student focused on penetration testing and vulnerability assessment.
