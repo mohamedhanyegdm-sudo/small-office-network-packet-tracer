@@ -1,19 +1,29 @@
 # Enterprise Multi-Site Network Design with VLAN Segmentation
 
-A multi-site enterprise network designed and simulated in Cisco Packet Tracer. Multiple locations are connected over WAN serial links, and each site is segmented into VLANs.
+A scalable multi-site enterprise network designed and simulated in Cisco Packet Tracer. Multiple locations are connected through WAN links to ensure reliable communication between sites.
 
-## Design
-- VLAN 10, VLAN 20 and VLAN 30 at each site, one per department
-- Inter-VLAN routing between departments and across sites
-- WAN connectivity over serial links
+Each site includes switches and end devices organized into VLANs (VLAN 10, VLAN 20, VLAN 30) for better network segmentation, security, and traffic management. Inter-VLAN routing was implemented to enable communication between different departments and locations.
+
+## Technologies and concepts
+- VLAN configuration
+- Inter-VLAN routing
+- WAN connectivity (serial links)
 - IP addressing and subnetting
 - Static and dynamic routing
+- Network simulation using Cisco Packet Tracer
 
-## Testing
-The network was tested in Packet Tracer Simulation Mode. Communication was verified between devices in different VLANs and between remote sites.
+## Key features
+- Network segmentation using VLANs
+- Secure communication between departments
+- Multi-site connectivity over WAN
+- Scalable and organized network infrastructure
+- Improved traffic management and network performance
 
-## Tools
-Cisco Packet Tracer
+## Testing and validation
+The network was tested in Simulation Mode within Cisco Packet Tracer, where successful communication was verified between devices across different VLANs and remote sites.
+
+## Skills
+Network design, routing, switching, VLAN implementation, and structured enterprise network management.
 
 ## Author
-Mohamed Hany, cybersecurity student focused on penetration testing and vulnerability assessment.
+Mohamed Hany Abdullah. LinkedIn: https://www.linkedin.com/in/mohamed-hany-872836398/
